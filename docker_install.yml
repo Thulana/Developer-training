@@ -1,5 +1,6 @@
 ---
 - name: personal-playbook | docker install
+  hosts: localhost
   connection: local
   become: yes
   user: thulana

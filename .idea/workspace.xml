@@ -44,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="docker_install.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="docker_install.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker_install.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -64,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="docker_cleanup.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="docker_cleanup.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docker_cleanup.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="36">
+              <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -118,8 +118,8 @@
         <option value="$PROJECT_DIR$/roles/Install_apache/defaults/main.yml" />
         <option value="$PROJECT_DIR$/vars/docker_install.yml" />
         <option value="$PROJECT_DIR$/vars/docker_cleanup.yml" />
-        <option value="$PROJECT_DIR$/docker_cleanup.yml" />
         <option value="$PROJECT_DIR$/docker_install.yml" />
+        <option value="$PROJECT_DIR$/docker_cleanup.yml" />
       </list>
     </option>
   </component>
@@ -218,12 +218,12 @@
       <option name="presentableId" value="Default" />
       <updated>1509985564842</updated>
       <workItem from="1509985566168" duration="569000" />
-      <workItem from="1509986815979" duration="2515000" />
+      <workItem from="1509986815979" duration="2739000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3084000" />
+    <option name="totallyTimeSpent" value="3308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -356,18 +356,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker_cleanup.yml">
+    <entry file="file://$PROJECT_DIR$/docker_install.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="36">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker_install.yml">
+    <entry file="file://$PROJECT_DIR$/docker_cleanup.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
           <folding />
         </state>
       </provider>
