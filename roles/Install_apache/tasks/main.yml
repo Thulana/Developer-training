@@ -1,11 +1,11 @@
-- debug: var={{ sftp_config }}
-- include: ssh_config.yml
-  when: sftp_config
+#- debug: var={{ sftp_config }}
+#- include: ssh_config.yml
+#  when: sftp_config
 
-- include: create_directories.yml
-  when: permissions
+- include: docker_install.yml
+  when: docker_install == true
 
-- include: issue_permissions.yml
-  when: directories
+- include: docker_cleanup.yml
+  when: docker_cleanup == true
 
 
