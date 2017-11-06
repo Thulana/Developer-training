@@ -1,0 +1,11 @@
+---
+- name: personal-playbook | docker cleanup
+  hosts: localhost
+  become: yes
+  user: thulana
+  become_user: root
+  become_method: sudo
+  vars_files:
+      - vars/docker_cleanup.yml
+  roles:
+    - Docker

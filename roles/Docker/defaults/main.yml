@@ -1,4 +1,6 @@
 ---
+docker_install: true
+docker_cleanup: true
 
 docker_edition: 'ce'
 docker_channel: 'edge'

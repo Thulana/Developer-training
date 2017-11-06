@@ -1,0 +1,11 @@
+---
+- name: personal-playbook | docker install
+  hosts: localhost
+  become: yes
+  user: thulana
+  become_user: root
+  become_method: sudo
+  vars_files:
+      - vars/docker_install.yml
+  roles:
+    - Docker
