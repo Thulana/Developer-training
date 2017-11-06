@@ -1,6 +1,6 @@
 ---
 - name: personal-playbook | docker cleanup
-  hosts: localhost
+  connection: local
   become: yes
   user: thulana
   become_user: root
